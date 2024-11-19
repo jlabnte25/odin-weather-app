@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin-Weather-App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img id="background" />
+    <header>Copyright Jlab</header>
+    <div id="mainContainer">
+      <div id="searchBarContainer">
+        <input id="searchBar" typ="text" />
+        <button id="searchBtn">Search</button>
+      </div>
+
+      <div id="resultsContainer">
+        <div id="locationContainer" class="result">
+          <p>Location:</p>
+          <p id="location"></p>
+        </div>
+
+        <div id="temperatureContainer" class="result">
+          <p>Temperature:</p>
+          <p id="temperature"></p>
+          <!-- <button id="fahrenheitBtn">Fahrenheit</button>
+          <button id="celsiusBtn">Celsius</button> -->
+        </div>
+
+        <div id="descriptionContainer">
+          <div>
+            <p class="descriptionTitle">Today:</p>
+            <p id="description"></p>
+          </div>
+          <div>
+            <p class="descriptionTitle">Forecast:</p>
+            <p id="forecast"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js" type="module"></script>
+</html>
